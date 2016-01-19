@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f70ee5f74b736036a7a6466b00a35397",
+    "content-hash": "4da30e9d155ef33bdeddefe7b46c706f",
+    "packages": [
+        {
+            "name": "propaganistas/email-obfuscator",
+            "version": "1.0.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Propaganistas/Email-Obfuscator.git",
+                "reference": "01bdb10a7b0f42b386ae200b9c3f7af1bab48304"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Propaganistas/Email-Obfuscator/zipball/01bdb10a7b0f42b386ae200b9c3f7af1bab48304",
+                "reference": "01bdb10a7b0f42b386ae200b9c3f7af1bab48304",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Propaganistas\\EmailObfuscator\\": "src/"
+                },
+                "files": [
+                    "src/Obfuscator.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Propaganistas",
+                    "email": "Propaganistas@users.noreply.github.com"
+                }
+            ],
+            "description": "Provides an email obfuscator for use in various platforms.",
+            "keywords": [
+                "antispam",
+                "email",
+                "laravel",
+                "obfuscation",
+                "spam",
+                "twig"
+            ],
+            "time": "2016-01-03 16:05:21"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

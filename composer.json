@@ -1,0 +1,5 @@
+{
+    "require": {
+        "propaganistas/email-obfuscator": "^1.0"
+    }
+}
